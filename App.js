@@ -9,7 +9,7 @@ import Search from './src/screens/Search'
 const Stack = createStackNavigator()
 
 const BackBotton = (props) => {
-  console.log(props)
+
   return (
     <Pressable onPress={props.onPress}>
       <Image style={styles.back} source={require('./assets/back.png')} />
